@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #EBF4F4;
+    font-size: 12px;
+}
+form{
+    width: 320px;
+    height: 360px;
+    background: #FFFFFF;
+    border: 1px solid #CFDEDE;
+    margin: 170px auto;
+    padding: 0px 30px 21px 30px;
+   
+}
+
+.reg{
+    background-color: #01B3B3;
+    width: 169px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    padding: 7px 29px;
+    position: absolute;
+    left: 640px;
+    top: 158px;
+
+}
+input{
+    width: 100%;
+    padding: 8px 0px 8px 15px;
+    background: #EBF4F4;
+    border: 1px solid #01B3B3;
+    outline: none;
+}
+label{
+    display: block;
+    margin: 15px 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+span{
+color:  #01B3B3;
+
+}
+#email{
+    background-image: url(./user\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right +5px center;
+}
+#password{
+    background-image: url(./settings\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right +5px center;
+}
+#confirm{
+    background-image: url(./settings\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right +5px center;
+}
+.email{
+    margin-top: 30px;
+}
+button{
+    padding: 16px 43px;
+    width: 100%;
+    background-color: transparent;
+    color: #01B3B3;
+    border: 2px solid #01B3B3;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: 5%;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: grey;
+    color: black;
+}
+#check{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    margin-top: 5%;
+    border-radius: none;
+}
+form input:checked ~ #check{
+    background-color: black;
+}
+.accept{
+    position: absolute;
+    left: 43%;
+    top: 417px;
+    color: #01B3B3;
+}
+.terms{
+    position: absolute;
+    color: #01B3B3;
+    top: 418px;
+    left: 732px;
+}
+.terms:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
